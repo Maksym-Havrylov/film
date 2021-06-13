@@ -115,11 +115,11 @@ img {
 }
 
 .bg-blood {
-  background: url('/img/bg-blood.png') no-repeat top right / 70%, #14131A url('/img/bg-screen.jpg') no-repeat center center / 101%;
+  background: url('../img/bg-blood.png') no-repeat top right / 70%, #14131A url('../img/bg-screen.jpg') no-repeat center center / 101%;
 }
 
 .bg-primary {
-  background: #14131A url('/img/bg-screen.jpg') no-repeat center center / 101%;
+  background: #14131A url('../img/bg-screen.jpg') no-repeat center center / 101%;
 }
 
 .col {
@@ -177,7 +177,7 @@ img {
   width: 360px;
   height: 210px;
   margin-top: 33px;
-  background: url('/img/trailer-cover.jpg') no-repeat center center / contain;
+  background: url('../img/trailer-cover.jpg') no-repeat center center / contain;
   border-radius: 6px;
   display: flex;
   align-items: center;
