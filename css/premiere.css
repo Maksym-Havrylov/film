@@ -1,0 +1,126 @@
+@import '//fonts.googleapis.com/css?family=Bangers';
+
+.carnage {
+  color: #B30303;
+}
+
+.wrap {
+  /* OLD browser support */
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  -moz-box-wrap: nowrap;
+  -webkit-box-wrap: nowrap;
+  -ms-flexbox-wrap: nowrap;
+  -moz-box-direction: column;
+  -webkit-box-direction: column;
+  -ms-flexbox-direction: column;
+  /* END OLD browser support */
+
+  display: flex; /* or inline-flex */
+  flex-direction: column; /* or usually or row */
+  justify-content: space-between;
+  align-items: center;
+
+  height: 100%;
+  width: 100%;
+}
+
+.logo {
+  -ms-transform: rotate(-3deg); /* IE 9 */
+  -webkit-transform: rotate(-3deg); /* Safari */
+  transform: rotate(-3deg);
+  padding-top: 20px;
+}
+
+.logo a {
+  color: #ffffff;
+  font-size: 6em;
+  font-family: 'Bangers', sans-serif;
+  padding: 10px;
+  opacity: 0.75;
+}
+
+.logo a .logo-alt {
+  color: #FFF;
+  font-size: 24px;
+}
+
+.logo a:hover, .logo a:focus {
+  text-decoration: none;
+  opacity: 1.0;
+}
+
+h2 {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 600px;
+  color: #ffffff;
+  opacity: 0.75;
+  font-family: 'Bangers', sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+#countdown {
+  color: #ffffff;
+  display: flex;
+  max-width: 360px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+#countdown .countdown-section {
+  padding: 0 15px;
+  border-right: 1px solid rgba(255, 255, 255, 0.36);
+}
+
+#countdown .countdown-section:last-child {
+  border-right: 0;
+}
+
+#countdown .countdown-section .h1 {
+  opacity: 0.75;
+  font-size: 5rem;
+}
+
+#countdown .countdown-section .text-center {
+  color: #ffffff;
+  opacity: 1.0;
+  font-size: 2rem;
+}
+
+.share {
+  position: relative;
+  padding: 6px 12px 6px 35px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.share:hover {
+  color: #ffffff;
+  text-decoration: underline;
+  background-color: rgba(255, 255, 255, 0.36);        
+}
+
+.share-twitter {
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  top: 3px;
+  left: 7px;
+}
+
+.site-footer {
+  color: #FFF;
+  font-size: 0.875em; /* 14px */
+  height: 54px;
+  padding-bottom: 20px;
+}
+
+a {
+  color: #ff3399;
+  text-decoration: none;
+}
