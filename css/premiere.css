@@ -1,4 +1,7 @@
-@import '//fonts.googleapis.com/css?family=Bangers';
+@font-face {
+  font-family: 'Bangers';
+  src: url("../font/bangers.otf") format("opentype");
+}
 
 .carnage {
   color: #B30303;
@@ -24,19 +27,21 @@
 
   height: 100%;
   width: 100%;
+  font-family: 'Roboto', sans-serif;
 }
 
 .logo {
   -ms-transform: rotate(-3deg); /* IE 9 */
   -webkit-transform: rotate(-3deg); /* Safari */
   transform: rotate(-3deg);
-  padding-top: 20px;
+  /* padding-top: 20px; */
+  padding-bottom: 20px;
 }
 
 .logo a {
   color: #ffffff;
-  font-size: 6em;
-  font-family: 'Bangers', sans-serif;
+  font-size: 8em;
+  font-family: 'Bangers', cursive;
   padding: 10px;
   opacity: 0.75;
 }
@@ -53,11 +58,10 @@
 
 h2 {
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 20px;
   max-width: 600px;
   color: #ffffff;
   opacity: 0.75;
-  font-family: 'Bangers', sans-serif;
 }
 
 p {
@@ -83,13 +87,13 @@ p {
 
 #countdown .countdown-section .h1 {
   opacity: 0.75;
-  font-size: 5rem;
+  font-size: 7rem;
 }
 
 #countdown .countdown-section .text-center {
   color: #ffffff;
   opacity: 1.0;
-  font-size: 2rem;
+  font-size: 1.2rem;
 }
 
 .share {

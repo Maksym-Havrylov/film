@@ -53,5 +53,5 @@ function initializeClock(id, endtime){
 
 // LAUNCH DATE
 // USE CHRISTMAS DAY so countdown is not a negative value for foreseeable future
-var deadline = 'December 25 2016 00:00:00 UTC';
+var deadline = 'September 16 2021 00:00:00 UTC';
 initializeClock('countdown', deadline); //comming soon *END*

@@ -95,7 +95,8 @@ img {
   cursor: pointer;
 }
 
-.button-text, .button-icon {
+.button-text,
+.button-icon {
   display: inline-block;
   vertical-align: middle;
 }
@@ -223,6 +224,7 @@ img {
     flex-direction: column;
     margin-bottom: 5%;
   }
+
   .col {
     margin-bottom: 5%;
   }
@@ -252,11 +254,13 @@ img {
     transition: transform 0.3s;
     opacity: 0;
   }
+
   .nav-menu-item {
     margin-top: 3%;
     margin-bottom: 3%;
     margin-right: 0;
   }
+
   .menu-close {
     position: fixed;
     opacity: 0;
@@ -272,31 +276,38 @@ img {
     transition: transform 0.3s;
     transition-delay: 0.5s;
   }
+
   .menu-close-text {
     font-size: 14px;
     line-height: 16px;
     color: #14131A;
     margin-right: 10px;
   }
+
   .nav-menu-link {
     color: #14131A;
     font-size: 4vh;
   }
+
   .active {
     opacity: 1;
     transform: translateX(0%);
     transition: transform 0.3s;
   }
+
   .header {
     padding-top: 3%;
     margin-bottom: 5%;
   }
+
   .bg-blood .header {
     margin-bottom: 20%;
   }
+
   .nav {
     margin-left: auto;
   }
+
   .menu-button {
     display: flex;
     align-items: center;
@@ -306,23 +317,28 @@ img {
     background-color: inherit;
     cursor: pointer;
     color: #ffffff;
-    
+
   }
+
   .menu-button-text {
     margin-right: 20px;
   }
+
   .button-group {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
   }
+
   .button-primary {
     margin-bottom: 14px;
   }
+
   .film-text {
     text-align: center;
   }
+
   .venom-head {
     top: 11%;
     width: 40%;
@@ -332,14 +348,17 @@ img {
     flex-direction: column-reverse;
     align-items: flex-start;
   }
+
   .content .trailer {
     max-width: 100%;
     width: 100%;
   }
+
   .poster {
     margin-right: 0;
     width: 100%;
   }
+
   .column-2 {
     column-count: 1;
   }
