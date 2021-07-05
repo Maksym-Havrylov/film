@@ -55,20 +55,3 @@ function initializeClock(id, endtime){
 // USE CHRISTMAS DAY so countdown is not a negative value for foreseeable future
 var deadline = 'September 16 2021 00:00:00 UTC';
 initializeClock('countdown', deadline); //comming soon *END*
-
-//slick-slider
-$('.slider-for').slick({
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  arrows: false,
-  fade: true,
-  asNavFor: '.slider-nav'
-});
-$('.slider-nav').slick({
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  asNavFor: '.slider-for',
-  dots: true,
-  centerMode: true,
-  focusOnSelect: true
-}); //slick-slider *END*

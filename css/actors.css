@@ -1,0 +1,15 @@
+.actor-card-for img {
+  /* width: 100%; */
+  height: 400px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.slider-nav {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.actor-card-nav img {
+  height: 100px;
+  overflow: hidden;
+}
