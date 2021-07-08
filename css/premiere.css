@@ -7,6 +7,14 @@
   color: #B30303;
 }
 
+.carnage-head {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  max-width: 728px;
+  width: 22%;
+}
+
 .wrap {
   /* OLD browser support */
   display: -webkit-box;
@@ -127,4 +135,37 @@ p {
 a {
   color: #ff3399;
   text-decoration: none;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .logo {
+    padding-right: 200px;
+    padding-left: 20px;
+  }
+  .carnage-head {
+    top: 14%;
+    width: 40%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .carnage-head {
+    top: 14%;
+    width: 41%;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .carnage-head {
+    top: 14%;
+    width: 41%;
+  }
+}
+
+@media (max-width: 576px) {
+  .carnage-head {
+    top: 11%;
+    width: 40%;
+  }
 }
