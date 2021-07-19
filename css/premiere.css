@@ -3,10 +3,13 @@
   src: url("../font/bangers.otf") format("opentype");
 }
 
+.blood-bg {
+  background: url('../img/blood-bg.png') no-repeat top right / 40%, #14131A url('../img/bg-screen.jpg') no-repeat center center / 101%;
+}
+
 .carnage {
   color: #B30303;
 }
-
 .carnage-head {
   position: absolute;
   right: 0;
